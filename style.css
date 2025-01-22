@@ -675,8 +675,8 @@ text-align: start;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-width: 357px;
+max-width: 357px;
 padding-right: 12px;
-
+width: 100%;
   }
 }
