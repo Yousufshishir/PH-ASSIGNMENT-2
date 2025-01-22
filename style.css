@@ -86,6 +86,7 @@ font-size: .943rem;
 font-weight: 700;
 border: none;
 background-color: transparent;
+
 }
 
 .circle{
@@ -106,12 +107,7 @@ font-family: Font Awesome 5 Free;
 font-size: 2.5rem;
 font-weight: 900;
 line-height: 24px;
-  
-  
-  
-
 color: white;
-
 user-select: none;
 }
 
@@ -123,6 +119,87 @@ user-select: none;
 .hover2:hover{
   background-color: white;
   color:black;
+}
+
+/* stories shared section */
+.stories-card{
+  max-width: 520px;
+  
+  background: rgb(255, 255, 255);
+  border-radius: 16px;
+
+}
+.stories-card1{
+  max-width: 520px;
+  
+  background: rgb(255, 255, 255);
+  border-radius: 16px;
+
+}
+
+.date{
+
+  color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: .79rem;
+font-weight: 500;
+line-height: 28.76px;
+padding: 5px 10px;
+border-radius: 47.93px;
+border: navajowhite;
+background: rgb(60, 216, 232);
+position: relative;
+bottom: 25px;
+left: 25px;
+}
+.img_btn{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.img_btn>img{
+  border-radius: 16px;
+}
+.story_des_title{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+gap: 52px;
+padding-left: 38px;
+padding-right: 68px;
+
+}
+
+
+.stories-card-container{
+  margin-bottom: 80px;
+}
+
+
+.story-title{
+  color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 1.5rem;
+font-weight: 700;
+line-height: 38.35px;
+}
+.story-description{
+  color: rgb(102, 102, 102);
+font-family: Raleway;
+font-size: .959rem;
+font-weight: 500;
+line-height: 28.76px;
+margin-bottom: 34px;
+}
+
+.story-description-4cards{
+  color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: .8rem;
+font-weight: 700;
+line-height: 28.76px;
+margin-bottom: 34px;
 }
 /* -------------------------------------------------------- */
 /* navbar design */
@@ -206,7 +283,7 @@ body{
 /* ----------------------------------------------- */
 .standard-curriculum{
   background-image: url(./assets/bg.png);
-  background-size: cover;
+  background-repeat: no-repeat;
 }
 .standard-card-container{
   display: flex;
@@ -233,6 +310,7 @@ margin-top: 60px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 60px;
   }
   .standard-forward-backward-button{
     display: flex;
@@ -242,6 +320,57 @@ margin-top: 60px;
     
   }
 
+  /* story section */
+  .our-stories{
+    background: url(./assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 80px;
+background-size: contain;
+  }
+  .story-button{
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+border-radius: 12px;
+padding: 10px 61px;
+background: rgb(17, 17, 17);
+margin: 80px;
+  }
+.s-heading{
+  margin-bottom: 80px;
+  color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 2.875rem;
+font-weight: 700;
+line-height: 57.5px;
+}
+
+
+.story-card-container {
+ 
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  max-width: 1120px;
+  margin: 0 auto;
+  border-radius: 16px;
+
+}
+
+.img_btn>img{
+  width: 100%;
+}
+.story-4-cards{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 19px;
+
+}
 
   @media screen and (max-width:576px) {
     .school{
@@ -379,6 +508,52 @@ font-weight: 700;
 line-height: 33px;
 text-align: center;
 margin-bottom: 10px;
+}
+
+.stories-card1{
+  display: none;
+}
+
+.story-4-cards{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+max-width: 358px;
+
+margin: 0 auto;
+gap: 10px;
+margin-left: 12.26px;
+margin-right: 12.26px;
+}
+.stories-card{
+  max-width: 173px;
+  height: auto;
+}
+.story-description-4cards{
+  color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: .57rem;
+font-weight: 700;
+line-height: 17.12px;
+}
+.date{
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: .69rem;
+  font-weight: 500;
+  line-height: 28.76px;
+  padding: 5px 10px;
+  border-radius: 47.93px;
+  
+  position: relative;
+  bottom: 20px;
+  left: 20px;
+}
+.story-button{
+  color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 1rem;
+font-weight: 700;
+line-height: 30px;
 }
   }
   
