@@ -327,7 +327,6 @@ margin-top: 60px;
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   margin-bottom: 80px;
 background-size: contain;
   }
   .story-button{
@@ -371,7 +370,95 @@ line-height: 57.5px;
   gap: 19px;
 
 }
+/* footer design */
 
+.footer-container{
+  margin-top: 0px;
+  background: rgb(1, 172, 253);
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 123px;
+  padding-bottom: 174px;
+  padding-left: 140px;
+  padding-right: 228px;
+}
+.left-footer-content{
+  margin-right: 172px;
+}
+.left-footer-logo_heading{
+margin-bottom: 35.35px;
+}
+.left-footer-logo_heading{
+  display: flex;
+  align-items: center;
+  
+}
+.footer-title{
+  color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 2.625rem;
+font-weight: 700;
+line-height: 39.51px;
+}
+.left-footer-description{
+  color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 1.25rem;
+font-weight: 400;
+line-height: 25px;
+}
+
+.middle-footer-content{
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  justify-content: flex-start;
+  margin-right: 143px;
+}
+.middle-title{
+  color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 1.5rem;
+font-weight: 700;
+line-height: 30px;
+margin-bottom: 32px;
+white-space: nowrap;
+}
+.middle-footer-content>ul>li{
+  margin-bottom: 20px;
+
+  list-style: none;
+}
+.middle-footer-content>ul>li>a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 1.25rem;
+font-weight: 500;
+line-height: 25px;
+
+}
+
+.right-footer-content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.right-title{
+  color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 1.625rem;
+font-weight: 700;
+line-height: 26px;
+white-space: nowrap;
+}
+.right-logo{
+  display: flex;
+  align-items: flex-start;
+  gap: 10.15px;
+}
   @media screen and (max-width:576px) {
     .school{
       display: none;  
@@ -555,5 +642,41 @@ font-size: 1rem;
 font-weight: 700;
 line-height: 30px;
 }
+/* responsive footer design */
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 40px;
+  max-width: 390px;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.left-footer-logo_heading{
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 2.21rem;
+  font-weight: 700;
+  line-height: 33.5px;
+}
+.left-footer-description{
+  color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 1rem;
+font-weight: 400;
+line-height: 20px;
+text-align: start;
+
+}
+.left-footer-content{
+  margin-bottom: 32px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 357px;
+padding-right: 12px;
+
   }
-  
+}
